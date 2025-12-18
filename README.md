@@ -23,3 +23,7 @@ Quais são os principais fatores estatísticos que influenciam o sucesso nos Pla
 O dataset foi retirado da URL: https://www.kaggle.com/datasets/jacobbaruch/basketball-players-stats-per-season-49-leagues
 
 O mesmo possui estatísticas diversas sobre jogadores de várias ligas, desde a temporada 1999 - 2000 até 2019 - 2020.
+
+# Modelagem
+
+O modelo utilizado é flat por cada conceito, ou seja, utilizarei apenas uma tabela.
