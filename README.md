@@ -24,12 +24,12 @@ O dataset foi retirado da URL: https://www.kaggle.com/datasets/jacobbaruch/baske
 
 O mesmo possui estatísticas diversas sobre jogadores de várias ligas, desde a temporada 1999 - 2000 até 2019 - 2020.
 
-O modelo utilizado é flat por cada conceito, ou seja, utilizarei apenas uma tabela.
+O modelo utilizado é flat por cada conceito, ou seja, foi utilizada apenas uma tabela.
 
 # Preparação
 
-Foi criada uma aba de preparação no databricks para a criação dos schemas e catálogos do projeto. Manualmente
-<img width="1589" height="728" alt="image" src="https://github.com/user-attachments/assets/3e10131e-5998-44be-af86-c87fa667c307" />
+Foi criada uma aba de preparação no databricks para a criação dos schemas e catálogos do projeto. Manualmente, foi realizado o upload do CSV do dataset para o volume "basquete:"
+<img width="1117" height="253" alt="image" src="https://github.com/user-attachments/assets/cba0ff84-ba08-4f99-8ebe-527a8e5e0c54" />
 
 
 # Bronze
