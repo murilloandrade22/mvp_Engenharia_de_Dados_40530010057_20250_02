@@ -1,4 +1,4 @@
-<img width="1589" height="728" alt="image" src="https://github.com/user-attachments/assets/a380187b-eecb-44a3-bc79-098c5bd21952" /># mvp_Engenharia_de_Dados_40530010057_20250_02
+# mvp_Engenharia_de_Dados_40530010057_20250_02
 
 Objetivo:
 Analisar a evolução ofensiva ao longo do tempo na NBA, por meio de métricas estatísticas e individuais, avaliando eficiência, tempo em quadra, idade, e atuações de destaque no mata-mata.
