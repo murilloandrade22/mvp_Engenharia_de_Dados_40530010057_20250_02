@@ -16,3 +16,8 @@ Quais são as melhores atuações no mata mata?
 Existe correlação entre idade dos jogadores e desempenho nos Playoffs?
 
 Quais são os principais fatores estatísticos que influenciam o sucesso nos Playoffs?
+
+
+# Coleta
+
+O dataset foi retirado da url: https://www.kaggle.com/datasets/jacobbaruch/basketball-players-stats-per-season-49-leagues
