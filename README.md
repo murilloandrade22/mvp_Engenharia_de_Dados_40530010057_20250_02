@@ -5,17 +5,17 @@ Analisar a evolução ofensiva ao longo do tempo na NBA, por meio de métricas e
 
 Para isso, o trabalho buscará responder as seguintes perguntas:
 
-Existe correlação entre tempo em quadra e eficiência dos jogadores?
+1) Existe correlação entre tempo em quadra e eficiência dos jogadores?
 
-Como foi a evolução das métricas ofensivas ao longo do tempo na NBA?
+2) Como foi a evolução das métricas ofensivas ao longo do tempo na NBA?
 
-Quais jogadores mais se destacam no mata mata?
+3) Quais jogadores mais se destacam no mata mata?
 
-Quais são as melhores atuações no mata mata?
+4) Quais são as melhores atuações no mata mata?
 
-Existe correlação entre idade dos jogadores e desempenho nos Playoffs?
+5) Existe correlação entre idade dos jogadores e desempenho nos Playoffs?
 
-Quais são os principais fatores estatísticos que influenciam o sucesso nos Playoffs?
+6) Quais são os principais fatores estatísticos que influenciam o sucesso nos Playoffs?
 
 
 # Coleta e Modelagem
