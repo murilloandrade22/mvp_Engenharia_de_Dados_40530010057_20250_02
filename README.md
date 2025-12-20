@@ -49,3 +49,7 @@ Condições:
 
 Além disso, apenas essas colunas foram selecionadas:
 <img width="857" height="94" alt="image" src="https://github.com/user-attachments/assets/f84fd347-dfbe-4edd-a76d-42e1ae371673" />
+
+Foram criadas novas colunas por um processo de feature engineering:
+<img width="763" height="432" alt="image" src="https://github.com/user-attachments/assets/19e4a27d-dbed-425d-b112-ede6b3ee0484" />
+
