@@ -55,6 +55,26 @@ Foram criadas novas colunas por um processo de feature engineering e criada a ta
 
 Foi verificado que não há valores nulos na tabela prata, o que se dá pela condição de um mínimo de 100 minutos jogados por cada jogador na temporada.
 
-# Ouro e Análise
+# Ouro
 
-Foram criadas tabelas na camada ouro para responder 
+Foram criadas tabelas na camada ouro para responder cada pergunta:
+
+**Existe correlação entre tempo em quadra e eficiência dos jogadores?**
+
+Escolhidas apenas as medidas de minutos em quadra, porcentagens de acerto e pontos por minuto, para determinar uma possível correlaçãp.
+
+**Como foi a evolução das métricas ofensivas ao longo do tempo na NBA?**
+
+Escolhidas apenas as medidas de temporada, porcentagens de acerto e pontos por minuto, para determinar se houve uma tendência geral.
+
+**Quais jogadores mais se destacam no mata mata?**
+
+Foram somados os valores ofensivos históricos e somados por jogador, para determinar quais possuem os melhores números.
+
+**Quais são as melhores atuações no mata mata?**
+
+Escolhidas apenas as medidas de temporada, jogador, porcentagens de acerto, pontos por minuto e minutagem, para verificar as maiores atuações específicas em temporadas de acordo com as métricas criadas.
+
+**Existe correlação entre idade dos jogadores e desempenho nos Playoffs?**
+
+Primeiramente, foi criada uma tabela com 
