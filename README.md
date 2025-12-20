@@ -40,5 +40,12 @@ Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente 
 
 # Prata
 
+A partir da tabela bronze, foram utilizadas algumas condições para filtrar linhas específicas e relevantes para o projeto.
 
+Condições:
+* Jogadores da NBA
+* Apenas durante os playoffs
+* Mais de 100 minutos em quadra
 
+Além disso, apenas essas colunas foram selecionadas:
+<img width="857" height="94" alt="image" src="https://github.com/user-attachments/assets/f84fd347-dfbe-4edd-a76d-42e1ae371673" />
