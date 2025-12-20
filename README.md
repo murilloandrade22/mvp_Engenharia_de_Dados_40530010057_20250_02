@@ -33,5 +33,12 @@ Foi criada uma aba de preparação no databricks para a criação dos schemas e 
 
 
 # Bronze
+Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Foi criado um catálogo de dados com
+
+<img width="612" height="610" alt="image" src="https://github.com/user-attachments/assets/09cea05a-1bd3-469c-b87e-038f68858b83" />
+<img width="634" height="714" alt="image" src="https://github.com/user-attachments/assets/081b4959-d60b-432d-aa4a-e120abd4c535" />
+<img width="600" height="729" alt="image" src="https://github.com/user-attachments/assets/49f19c5a-5ac7-4d77-9dec-b38651ca1756" />
+
+
 
 
