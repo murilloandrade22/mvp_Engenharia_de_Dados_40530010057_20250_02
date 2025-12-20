@@ -1,4 +1,4 @@
-# mvp_Engenharia_de_Dados_40530010057_20250_02
+<img width="763" height="432" alt="image" src="https://github.com/user-attachments/assets/2b0bcee8-8398-495b-85b5-e9329d4979ff" /># mvp_Engenharia_de_Dados_40530010057_20250_02
 
 Objetivo:
 Analisar a evolução ofensiva ao longo do tempo na NBA, por meio de métricas estatísticas e individuais, avaliando eficiência, tempo em quadra, idade, e atuações de destaque no mata-mata.
@@ -40,7 +40,7 @@ Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente 
 
 # Prata
 
-A partir da tabela bronze, foram utilizadas algumas condições para filtrar linhas específicas e relevantes para o projeto.
+A partir da tabela bronze, foram utilizadas algumas condições para filtrar linhas específicas e relevantes para o projeto. A condição de um mínimo de 100 minutos para cada jogador visa evitar números muito altos de porcentagem causados por poucas tentativas e nivelar a consistência das atuações, para que o projeto analise o topo de jogadores em atividade. 
 
 Condições:
 * Jogadores da NBA
@@ -50,6 +50,11 @@ Condições:
 Além disso, apenas essas colunas foram selecionadas:
 <img width="857" height="94" alt="image" src="https://github.com/user-attachments/assets/f84fd347-dfbe-4edd-a76d-42e1ae371673" />
 
-Foram criadas novas colunas por um processo de feature engineering:
+Foram criadas novas colunas por um processo de feature engineering e criada a tabela prata:
 <img width="763" height="432" alt="image" src="https://github.com/user-attachments/assets/19e4a27d-dbed-425d-b112-ede6b3ee0484" />
 
+Foi verificado que não há valores nulos na tabela prata, o que se dá pela condição de um mínimo de 100 minutos jogados por cada jogador na temporada.
+
+# Ouro e Análise
+
+Foram criadas tabelas na camada ouro para responder 
