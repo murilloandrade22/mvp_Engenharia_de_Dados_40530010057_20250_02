@@ -95,6 +95,6 @@ Primeiramente, foi criada uma tabela com a comparação entre a performance anua
 
 # Qualidade de Dados
 
-O conjunto de dados utilizado não apresenta problemas de qualidade que comprometam a análise, especialmente no que se refere aos atributos selecionados para o estudo. Durante o processo de feature engineering, algumas métricas derivadas podem assumir valores nulos em situações onde não há tentativas registradas (por exemplo, zero arremessos ou ações ofensivas). Nesses casos, tais valores serão tratados e convertidos para zero, de forma a manter a consistência dos dados e evitar vieses decorrentes de valores ausentes. Posteriormente, as métricas criadas que apresentarem valor igual a zero não serão consideradas nas análises finais, assegurando que esse tratamento não resulte em perda de informação relevante nem afete a interpretação dos resultados.
+O conjunto de dados utilizado não apresenta problemas de qualidade que comprometam a análise, especialmente no que se refere aos atributos selecionados para o estudo. Durante o processo de feature engineering, algumas métricas derivadas podem assumir valores nulos em situações onde não há tentativas registradas (por exemplo, Shaquille O'Neal não tentava cestas de 3 pontos). Nesses casos, os valores serão tratados e convertidos para zero, de forma a manter a consistência dos dados e evitar vieses decorrentes de valores ausentes. Posteriormente, as métricas criadas que apresentarem valor igual a zero não serão consideradas nas análises finais, já que as consultas possuem condições que impedem que o valor seja igual a zero.
 
-A seguir, cada pergunta 
+# Análise das Perguntas
