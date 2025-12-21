@@ -46,7 +46,9 @@ Inicialmente, foi criado um catálogo denominado MVP, responsável por organizar
 Posteriormente, foram criados os schemas bronze, prata e ouro, que serão utilizados nas etapas subsequentes do data lake, permitindo a evolução dos dados desde o nível bruto, passando por tratamentos e enriquecimentos, até camadas analíticas prontas para consumo e análise.
 
 ## 🥉 Bronze
-Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Foi criado um Catálogo de Dados com essa tabela, com os domínios, a descrição de cada coluna, exemplos se for uma medida categórica e o range se for uma medida numérica:
+Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Os dados foram inicialmente carregados a partir do arquivo CSV armazenado no volume de staging, utilizando o método de leitura do Apache Spark com inferência automática de esquema e reconhecimento do cabeçalho. Em seguida, o DataFrame resultante foi persistido no formato Delta, utilizando sobrescrita controlada, e salvo como uma tabela estruturada. Esse mesmo procedimento foi adotado posteriormente para o armazenamento das tabelas nas camadas prata e ouro.
+
+Foi criado um Catálogo de Dados com essa tabela, com os domínios, a descrição de cada coluna, exemplos se for uma medida categórica e o range se for uma medida numérica:
 
 <img width="633" height="727" alt="image" src="https://github.com/user-attachments/assets/c0b18aa0-0e5d-44b1-8f67-5e13005d2a32" />
 <img width="732" height="774" alt="image" src="https://github.com/user-attachments/assets/3ffe7f45-ba95-4fee-9d6f-abdfd6e4d518" />
