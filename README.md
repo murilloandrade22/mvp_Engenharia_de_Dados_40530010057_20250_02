@@ -40,9 +40,10 @@ O modelo utilizado é flat por cada conceito, ou seja, foi utilizada apenas uma 
 
 ## 📝 Preparação
 
-Foi criada uma aba de preparação no databricks para a criação dos schemas e catálogos do projeto. Manualmente, foi realizado o upload do CSV do dataset para o volume "basquete:"
-<img width="1117" height="253" alt="image" src="https://github.com/user-attachments/assets/cba0ff84-ba08-4f99-8ebe-527a8e5e0c54" />
+Inicialmente, foi criado um catálogo denominado MVP, responsável por organizar e centralizar os objetos de dados utilizados no projeto. Em seguida, definiu-se um schema de staging e um volume basquete, destinados ao armazenamento dos dados brutos provenientes do arquivo CSV, garantindo a separação entre dados de origem e dados processados. Manualmente, foi realizado o upload do CSV do dataset para esse volume:
+<img width="1117" height="253" alt="image" src="https://github.com/user-attachments/assets/cba0ff84-ba08-4f99-8ebe-527a8e5e0c54" /> 
 
+Posteriormente, foram criados os schemas bronze, prata e ouro, que serão utilizados nas etapas subsequentes do data lake, permitindo a evolução dos dados desde o nível bruto, passando por tratamentos e enriquecimentos, até camadas analíticas prontas para consumo e análise.
 
 ## 🥉 Bronze
 Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Foi criado um Catálogo de Dados com essa tabela, com os domínios e a descrição de cada coluna.
@@ -98,3 +99,4 @@ Primeiramente, foi criada uma tabela com a comparação entre a performance anua
 O conjunto de dados utilizado não apresenta problemas de qualidade que comprometam a análise, especialmente no que se refere aos atributos selecionados para o estudo. Durante o processo de feature engineering, algumas métricas derivadas podem assumir valores nulos em situações onde não há tentativas registradas (por exemplo, Shaquille O'Neal não tentava cestas de 3 pontos). Nesses casos, os valores serão tratados e convertidos para zero, de forma a manter a consistência dos dados e evitar vieses decorrentes de valores ausentes. Posteriormente, as métricas criadas que apresentarem valor igual a zero não serão consideradas nas análises finais, já que as consultas possuem condições que impedem que o valor seja igual a zero.
 
 # Análise das Perguntas
+A seguir, cada pergunta terá 
