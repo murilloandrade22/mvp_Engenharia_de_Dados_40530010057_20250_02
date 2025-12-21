@@ -78,3 +78,5 @@ Escolhidas apenas as medidas de temporada, jogador, porcentagens de acerto, pont
 **Existe correlação entre idade dos jogadores e desempenho nos Playoffs?**
 
 Primeiramente, foi criada uma tabela com a comparação entre a performance anual dos jogadores de acordo com as métricas de porcentagem de acerto e pontos por minuto. Posteriormente, foi criada uma tabela para somar as vezes em que a performance melhorou ou piorou em um atributo para cada idade: a ideia é identificar quais idades possuem maiores picos de melhoria ou piora.
+
+# Análise
