@@ -46,10 +46,13 @@ Inicialmente, foi criado um catálogo denominado MVP, responsável por organizar
 Posteriormente, foram criados os schemas bronze, prata e ouro, que serão utilizados nas etapas subsequentes do data lake, permitindo a evolução dos dados desde o nível bruto, passando por tratamentos e enriquecimentos, até camadas analíticas prontas para consumo e análise.
 
 ## 🥉 Bronze
-Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Foi criado um Catálogo de Dados com essa tabela, com os domínios e a descrição de cada coluna.
+Nessa etapa, o conteúdo do CSV foi transformado em data frame e posteriormente transformado em tabela delta, dentro do schema bronze. Foi criado um Catálogo de Dados com essa tabela, com os domínios, a descrição de cada coluna, exemplos se for uma medida categórica e o range se for uma medida numérica:
 
-<img width="498" height="708" alt="image" src="https://github.com/user-attachments/assets/66fea0c6-b637-4e34-a8c9-0e4e04a28337" />
-<img width="485" height="504" alt="image" src="https://github.com/user-attachments/assets/4dc78e18-24b9-4176-a337-ec38b015e54d" />
+<img width="633" height="727" alt="image" src="https://github.com/user-attachments/assets/c0b18aa0-0e5d-44b1-8f67-5e13005d2a32" />
+<img width="732" height="774" alt="image" src="https://github.com/user-attachments/assets/3ffe7f45-ba95-4fee-9d6f-abdfd6e4d518" />
+<img width="622" height="433" alt="image" src="https://github.com/user-attachments/assets/6256196e-e169-44ae-b475-3318ae2957a0" />
+<img width="718" height="799" alt="image" src="https://github.com/user-attachments/assets/db0ca9a2-b6c5-47e5-9482-f8eadf14af24" />
+<img width="714" height="532" alt="image" src="https://github.com/user-attachments/assets/8201c3a2-6b63-4305-a531-7bb6278e100d" />
 
 ## 🥈 Prata
 
