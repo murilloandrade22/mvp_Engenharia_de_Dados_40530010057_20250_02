@@ -1,5 +1,9 @@
 # mvp_Engenharia_de_Dados_40530010057_20250_02
 
+Nome: Murillo Andrade
+
+Matrícula: 4052025000833
+
 ## Objetivo:
 O desempenho dos jogadores na NBA é resultado de uma combinação de diversos fatores, que são colocados à prova nos jogos de maior pressão competitiva, como os Playoffs. O estilo predominante da liga está sempre em evolução, vide as equipes de Rockets e Warriors protagonizando um foco maior nas cestas de 3 pontos na metade da década de 2010. Nesse contexto, a análise estatística aplicada permite identificar padrões de desempenho, comparar atuações em diferentes fases da carreira e tentar identificar fatores que mais contribuem para o sucesso no mata-mata. O objetivo do projeto é analisar a evolução ofensiva ao longo do tempo na NBA, por meio de métricas estatísticas e individuais, avaliando eficiência, tempo em quadra, idade, e atuações de destaque no mata-mata.
 
@@ -79,6 +83,10 @@ Escolhidas apenas as medidas de temporada, jogador, porcentagens de acerto, pont
 
 Primeiramente, foi criada uma tabela com a comparação entre a performance anual dos jogadores de acordo com as métricas de porcentagem de acerto e pontos por minuto. Posteriormente, foi criada uma tabela para somar as vezes em que a performance melhorou ou piorou em um atributo para cada idade: a ideia é identificar quais idades possuem maiores picos de melhoria ou piora.
 
-### Análise
+## Análise
+
+# Qualidade de Dados
+
+O conjunto de dados utilizado não apresenta problemas de qualidade que comprometam a análise, especialmente no que se refere aos atributos selecionados para o estudo. Durante o processo de feature engineering, algumas métricas derivadas podem assumir valores nulos em situações onde não há tentativas registradas (por exemplo, zero arremessos ou ações ofensivas). Nesses casos, tais valores serão tratados e convertidos para zero, de forma a manter a consistência dos dados e evitar vieses decorrentes de valores ausentes. Posteriormente, as métricas criadas que apresentarem valor igual a zero não serão consideradas nas análises finais, assegurando que esse tratamento não resulte em perda de informação relevante nem afete a interpretação dos resultados.
 
 A seguir, cada pergunta 
